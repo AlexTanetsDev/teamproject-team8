@@ -1,6 +1,6 @@
 import { BASE_URL } from './api-service';
 import { API_KEY } from './api-service';
-import { Notify } from 'notiflix';
+import Notiflix from 'notiflix';
 
 
 const watchedList = [];
