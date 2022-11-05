@@ -3,8 +3,7 @@ import { Fetchmovie } from './homepagerender';
 // import markupMovie from '../templates/movie-card.hbs';
 const list = document.querySelector('.movie-list');
 import { getGenresForMovies, getGenresForTv } from './fetchGenres';
-import { modalMovie } from './modal-movie'
-
+import { modalMovie } from './modal-movie';
 
 getCurrentPage();
 
@@ -46,6 +45,6 @@ Fetchmovie()
 getGenresForMovies();
 getGenresForTv();
 
-// Add modal-movie 
+// Add modal-movie
 
 modalMovie();
